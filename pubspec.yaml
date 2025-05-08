@@ -1,0 +1,38 @@
+name: WheatherApp
+description: "Pau's Weather App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  circle_nav_bar: ^2.2.0
+  time_picker_spinner: ^1.0.2
+  weather_animation: ^1.1.2
+  http: ^1.2.1
+  location: 6.0.2
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo_wheather_app_guiu.png"  # Ruta corregida
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/  # Ruta corregida
